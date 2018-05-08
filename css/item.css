@@ -14,11 +14,12 @@
   float: left;
   color: #AB9667;
   font-weight: bold;
+  margin-top: 0.4em;
 }
 
 .item-icon {
   float: right;
-  color: #b6bdb7;
+  cursor: pointer;
 }
 
 .item {

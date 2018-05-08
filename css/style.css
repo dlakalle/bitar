@@ -37,6 +37,7 @@ hr {
   /* height: 260px; */
   padding: 0;
   background: #0e2840;
+  text-align: center;
 }
 
 .menu .left {
@@ -47,6 +48,12 @@ hr {
 .menu .right {
   background: #0e2840;
   height: 100%;
+}
+
+.menu-icon {
+  display: inline-block;
+  margin: 2em 0.2em;
+  cursor: pointer;
 }
 
 .col.right ul {
