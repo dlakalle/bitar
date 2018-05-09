@@ -3,8 +3,15 @@
 /* you only need width to set up columns; all columns are 100%-width by default, so we start
    from a one-column mobile layout and gradually improve it according to available screen space */
 
+@media only screen and (max-width: 33em) {
+  .feature, .info { width: 50%; }
+  .menu    { padding: 0; }
+}
+
 @media only screen and (min-width: 34em) {
   .feature, .info { width: 50%; }
+  .menu    { padding: 0; }
+  .titulo { top: 3%;}
 }
 
 @media only screen and (min-width: 54em) {
@@ -12,6 +19,13 @@
   .sidebar { width: 33.33%; }
   .quinta  { width: 33.33%;    }
   .info    { width: 100%;   }
+  .menu    { padding: 0; }
+}
+
+@media only screen and (max-width: 54em) {
+  #actualidad { padding: 0 0 1.5em 0; }
+  #actividades { padding: 0 0 1.5em 0; }
+  #videos { padding: 0; }
 }
 
 @media only screen and (min-width: 76em) {
@@ -21,4 +35,13 @@
   .info    { width: 50%;    }
   .picture { width: 80%; }
   .picture-menu { width: 20%;}
+
+  .white-container { padding: 0  1.5em; }
+  .col.contenido>div.row { padding-top: 1.5em; }
+  .menu    { padding: 0 1.5em; }
+
+  #actualidad { padding-left: 0; }
+  #actividades { padding: 0 0.75em 0 0.75em; }
+  #videos { padding-right: 0; }
+  .titulo { top: 4%;}
 }

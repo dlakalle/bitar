@@ -9,24 +9,27 @@ hr {
 }
 
 .white-container{
-  padding: 0  1.5em;
+  padding: 0;
 }
 
 .encabezado {
-  height: 211px;
+  /* height: 211px; */
 }
 
 .mundo {
-  position: absolute;
-  top: 0;
-  right: 0;
   z-index: -1;
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
 }
 
 .titulo {
   position: absolute;
-  top: 47px;
+  top: 1.5%;
   left: 1.5em;
+  width: 40%;
 }
 
 .contenido {
@@ -110,8 +113,4 @@ hr {
 .footer-info a {
   color: black;
   text-decoration: none;
-}
-
-@media only screen and (max-width: 34em) {
-  .titulo { width: 90%; }
 }
